@@ -4,5 +4,5 @@ export const deepCompare = (item1, item2) => {
             && Object.keys(item1).every(key => deepCompare(item1[key], item2[key]));  
     }
   
-    return o1 === o2;
+    return item1 === item2;
 };
